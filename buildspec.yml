@@ -4,11 +4,13 @@ phases:
   install:
     commands:
       - echo Installing dependencies
+
   build:
     commands:
       - echo Build started
       - mkdir output
       - cp index.html output/
+
   post_build:
     commands:
       - echo Build completed
